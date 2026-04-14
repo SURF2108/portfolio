@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Contact P Surabhi Rao - Get in touch via email, LinkedIn, or GitHub. Download my resume.">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Contact P Surabhi Rao - Get in touch via email, LinkedIn, GitHub or Twitter. Download my resume.">
   <title>Contact | P Surabhi Rao</title>
 
   <!-- Bootstrap -->
@@ -14,7 +15,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
 
-  <!-- Custom CSS (last so it can override) -->
+  <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -27,28 +28,60 @@
     <a class="active" href="contact.html">Contact</a>
   </div>
 
-  <!-- Contact Banner -->
+  <!-- Contact Section -->
   <section class="contact-banner">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
           <h1>Let's get in touch!</h1>
-          <p class="contact-detail">
-            <strong>Email:</strong>
-            <a href="mailto:surabhi091203@gmail.com" class="contact-link">surabhi091203@gmail.com</a>
-          </p>
-          <p class="contact-detail">
-            <strong>LinkedIn:</strong>
-            <a href="https://www.linkedin.com/in/p-surabhi-rao-4711a3223/" target="_blank" class="contact-link">p-surabhi-rao-4711a3223</a>
-          </p>
-          <p class="contact-detail">
-            <strong>GitHub:</strong>
-            <a href="https://github.com/SURF2108" target="_blank" class="contact-link">SURF2108</a>
-          </p>
-          <br>
-          <a href="assets/resume.pdf" class="btn btn-lg btn-primary" target="_blank">My Resume</a>
+          <p class="contact-subtitle">Feel free to reach out — I'm always open to new opportunities and conversations.</p>
         </div>
       </div>
+
+      <!-- Icon Cards Row -->
+      <div class="contact-cards-row">
+
+        <!-- Email -->
+        <a href="mailto:surabhi091203@gmail.com" class="contact-card" id="contact-email">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <polyline points="2,4 12,13 22,4"/>
+            </svg>
+          </div>
+          <span class="contact-card-platform">Email</span>
+          <span class="contact-card-handle">surabhi091203@gmail.com</span>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/p-surabhi-rao-4711a3223/" target="_blank" class="contact-card" id="contact-linkedin">
+          <div class="contact-card-icon">
+            <img src="assets/linkedin.png" alt="LinkedIn">
+          </div>
+          <span class="contact-card-platform">LinkedIn</span>
+          <span class="contact-card-handle">p-surabhi-rao</span>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/SURF2108" target="_blank" class="contact-card" id="contact-github">
+          <div class="contact-card-icon">
+            <img src="assets/github.png" alt="GitHub">
+          </div>
+          <span class="contact-card-platform">GitHub</span>
+          <span class="contact-card-handle">SURF2108</span>
+        </a>
+
+
+
+      </div><!-- /.contact-cards-row -->
+
+      <!-- Resume button -->
+      <div class="row" style="margin-top: 3em;">
+        <div class="col-md-12 text-center">
+          <a href="assets/resume.pdf" class="btn btn-lg btn-primary" target="_blank">Download Resume</a>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -61,6 +94,7 @@
           <ul class="social-links">
             <li><a href="https://www.linkedin.com/in/p-surabhi-rao-4711a3223/" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"></a></li>
             <li><a href="https://github.com/SURF2108" target="_blank"><img src="assets/github.png" alt="GitHub"></a></li>
+
           </ul>
         </div>
       </div>
